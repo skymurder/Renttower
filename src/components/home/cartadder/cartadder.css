@@ -1,0 +1,51 @@
+.cart-adder-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 100px;
+    margin-top: 20px;
+  }
+  
+  .cart h2 {
+    margin-left: 560px;
+    margin-top: 50px;
+  }
+  
+  .cart-adder-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .cart-adder-form input[type="text"],
+  .cart-adder-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .cart-adder-form input[type="file"] {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .cart-adder-form button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cart-adder-form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
